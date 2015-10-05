@@ -4,6 +4,27 @@ html, body {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-top: 5px solid #000000;
+  <!--background-color: #434343;-->
+}
+.searchbtn {
+  background-color: #000;
+  padding: 10px;
+}
+.search {
+  background: #000;
+}
+.search a {
+  color: #fff;
+}
+.search a:active,
+.search a:hover {
+  outline: 0;
+}
 .main a[target="_blank"]:after {
     font-family: 'FontAwesome';
     content: " \f08e";

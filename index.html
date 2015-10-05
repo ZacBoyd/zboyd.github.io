@@ -7,13 +7,36 @@
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
+  <div id="search" class="collapse search">
+    <script>
+    (function() {
+      var cx = '015649431671675945433:wgphofw13mg';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search></gcse:search>
+  </div>
+
   <div class="nav">
     <div class="container">
-      <a href="https://au.linkedin.com/in/zacboyd" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
-      <a href="https://github.com/zboyd" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+      <div class="pull-left">
+        <a href="https://au.linkedin.com/in/zacboyd" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/zboyd" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+      </div>
+      <div class="pull-right search">
+        <a data-toggle="collapse" href="#search"><i class="fa fa-search fa-lg searchbtn"></i></a>
+      </div>
     </div>
   </div>
 
